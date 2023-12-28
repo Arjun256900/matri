@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  min-height: 100vh;
+  width: 100%;
+  font-family: sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://wallpapers.com/images/hd/scenery-pictures-dhxa2vbdljs0t8t0.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.info {
+  color: white;
+  padding: 18px 60px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.info span {
+  margin: 0px 15px;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  padding: 0px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  transition: 0.6s;
+}
+
+.menu a:last-child {
+  background-color: pink;
+  border-radius: 7px;
+}
+
+.menu a:hover {
+  background-color: pink;
+  border-radius: 7px;
+}
+.box {
+  border-radius: 35px;
+  background-color: white;
+  height: 450px;
+  width: 450px;
+  position: absolute;
+  top: 25%;
+  right: 10%;
+  padding: 30px;
+}
+form {
+  width: 100%;
+}
+form input[type="text"] {
+  padding: 20px 10px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+form input[type="submit"] {
+  padding: 20px 10px;
+  background-color: palevioletred;
+  border-radius: 40px;
+  color: white;
+  margin: 10px 0;
+  outline: none;
+  border: none;
+  width: 100%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+form input[type="submit"]:hover {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
+.box span {
+  color: palevioletred;
+  cursor: pointer;
+}
+.htext{
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    max-width: 600px;
+    color: whitesmoke;
+}
+.htext h1{
+    font-size: 2em;
+}
+.htext h2{
+    font-size: 4em;
+}
+.htext span{
+    color: palevioletred;
+}
+.htext p{
+    line-height: 2em;
+    letter-spacing: 3px;
+}
